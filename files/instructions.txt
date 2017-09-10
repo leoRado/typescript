@@ -1,0 +1,18 @@
+make file -> tasks.json
+
+content:
+    {
+        "version": "0.1.0",
+        "command": "tsc",
+        "isShellCommand": true,
+        "args": [
+            "-w",
+            "-p",
+            "."
+        ],
+        "showOutput": "silent",
+        "isBackground": true,
+        "problemMatcher": "$tsc-watch"
+    }
+
+Then run following command in terminal/command line: ->tsc --init
