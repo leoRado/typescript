@@ -20,7 +20,6 @@ class Employee_12 extends Person_12 {
     constructor(name) {
         super(name);
         console.log("Employee constructor for " + this.name);
-        
     }
     greet() {
         console.log("Greet employee " + this.name);
